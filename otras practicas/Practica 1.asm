@@ -1,0 +1,10 @@
+LDI R18, 5
+LDI R16, $20
+MOV R19, R16
+SUBI R18, 2 
+ADD R19, R18
+SUBI R18, 2
+ADD R19, R16
+SUBI R18,1
+fin: 
+	rjmp fin 
